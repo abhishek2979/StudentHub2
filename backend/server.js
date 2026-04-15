@@ -14,7 +14,7 @@ const ALLOWED_ORIGINS = [
   'http://localhost:5173',
   'http://127.0.0.1:5173',
   'http://localhost:3000',
-  'https://studenthub2.vercel.app', 
+  'https://student-hub2.vercel.app', 
 ];
 
 app.use((req, res, next) => {
