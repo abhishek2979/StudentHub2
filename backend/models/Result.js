@@ -5,7 +5,8 @@ const resultSchema = new mongoose.Schema({
   subject:   { type: String, required: true, trim: true },
   marks:     { type: Number, required: true, min: 0 },
   maxMarks:  { type: Number, required: true, default: 100, min: 1 },
-  examType:  { type: String, required: true, enum: ['Unit Test', 'Midterm', 'Final', 'Assignment', 'Quiz', 'Other'] },
+  //examType:  { type: String, required: true, enum: ['Unit Test', 'Midterm', 'Final', 'Assignment', 'Quiz', 'Other'] },
+  examType:   { type: String, required: true },
   examDate:  { type: Date, required: true },
   remarks:   { type: String, default: '' },
 
